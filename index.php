@@ -6,10 +6,7 @@ Stampiamo delle card contenenti i dettagli dei prodotti, come immagine, titolo, 
 
 <?php
 
-require_once __DIR__ . "/Models/food_product.php";
-
-
-
+require_once __DIR__ . "/Data/obj_db.php";
 
 
 // !!PROVA!!
@@ -20,9 +17,11 @@ require_once __DIR__ . "/Models/food_product.php";
 
 
 // // !!PROVA!! 
-$carneManzo = new Food("FOTO-PRODOTTO", "Carne di Manzo", 7.99, $categories_dog, "01/01/2025", "Manzo");
+// $carneManzo = new Food("FOTO-PRODOTTO", "Carne di Manzo", 7.99, $categories_dog, 12, "Manzo");
 
-var_dump($carneManzo);
+// var_dump($carneManzo);
+
+var_dump($food_1);
 
 
 ?>
