@@ -15,5 +15,5 @@ class Categories
 }
 
 
-$categories_dog = new Categories("Cane", "ICON-CANE");
-$categories_cat = new Categories("Gatto", "ICON-GATTO");
+$categories_dog = new Categories("Cane", '<i class="fa-solid fa-shield-dog"></i>');
+$categories_cat = new Categories("Gatto", '<i class="fa-solid fa-shield-cat"></i>');
